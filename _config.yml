@@ -1,0 +1,21 @@
+title: GardenOS
+description: Your garden's story, privately preserved.
+baseurl: ""
+url: "https://gardenos.app"
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: pretty
+
+exclude:
+  - Dockerfile
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .git
+  - .gitignore
